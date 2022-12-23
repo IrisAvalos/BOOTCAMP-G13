@@ -1,0 +1,27 @@
+.tabla{
+
+    border: 3px gray;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+}
+
+.Carol{
+
+    background-color:rgb(238, 211, 92) ;
+    height: 40px ;
+
+}
+
+.centrado{
+
+    text-align: center;
+
+
+}
+
+.info-personal{
+
+    background-color:rgb(238, 211, 92) ;
+
+}

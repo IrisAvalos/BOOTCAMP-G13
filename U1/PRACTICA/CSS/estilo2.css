@@ -1,0 +1,37 @@
+.introduccion{
+    color:rgb(218, 73, 223);
+    background-color: rgb(208, 219, 216);
+    width: 700px;
+    height: 400px;
+
+    /*  dashed, solid, double, dotted  */
+    border: 5px dashed blue; /*  border-left,  border-right,  border-top,  border-bottom   */
+
+    /* OTRA FORMA=> border-style: double; */   /*  dashed, dashed solid, dashed double none,dashed groove none dotted, dotted */
+
+    border-radius: 5px;
+    margin-left: 200px; /*  margin-left, margin-right, margin-top, margin-bottom   */
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    outline: 10px double yellow; /*  dashed, solid, double, dotted  */
+    text-decoration: underline overline; /* underline, overline, line-through, underline overline */
+    float: left; /*  right   */
+    text-align: center;  /*  left, right, justify, center  */
+    
+}
+
+img{
+    float: right;
+}
+
+h1{
+    color:aliceblue;
+}
+
+body{
+    background-image: url(https://astroaficion.com/wp-content/uploads/2018/06/1280px-Andromeda_Galaxy_with_h-alpha.jpg);
+    /* background-size: cover; */
+}
+

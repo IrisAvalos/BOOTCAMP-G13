@@ -1,0 +1,35 @@
+body{
+    background-color:greenyellow;
+    color:deeppink;
+
+}
+
+h1{
+
+    color:blue;
+    background-color: darkgray;
+}
+
+H4{
+    color: brown;
+    background-color: aquamarine;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border:10px solid yellow;
+    border-radius:20px;
+}
+
+p{
+    color:darkmagenta;
+    background-color: coral;
+}
+
+#prueba-1{
+    color:blueviolet;
+    background-color: darksalmon;
+}
+.prueba-2{
+    color:black;
+}
+
+

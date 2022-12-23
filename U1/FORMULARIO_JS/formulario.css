@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(3, 84, 138);
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 400px;
+    height: 350px;
+    background-color: rgb(22, 102, 7);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+form{
+    width: 400px;
+    height: 520px;
+    padding-left: 70px;
+    background: rgb(45, 138, 17);
+    text-align: left;
+    position: relative;
+}
+#caja {
+    width: 260px;
+    height: 150px;
+    color:black;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#enviar{
+
+    margin-left: 110px;
+    padding: 5px 10px;
+    
+    
+}

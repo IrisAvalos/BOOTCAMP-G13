@@ -1,0 +1,45 @@
+
+h3{
+
+    color:crimson;
+    background-color: aquamarine;
+    
+}
+
+H1{
+
+    color:rgb(50, 145, 26);
+    background-color: coral;
+
+}
+
+#parrafo1{
+
+    COLOR:rgb(174, 0, 255);
+    background-color: darkgrey;
+}
+
+.ejemplo{
+
+    background-color:gray;
+    width: 500px;
+    height: 500px;
+    border: 20px yellow;
+    border-style: groove double dashed dotted ;  /* solid, dotted, dashed, double, groove double dashed dotted */
+    margin-left: 400px;
+    margin-top:50px;
+    margin-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top:0px;
+    text-align:center;  /* center, justify, left, right */
+    outline: 10px green;
+    outline-style: double;
+    text-decoration: underline overline; /*overline, underline, line-through, underline overline*/
+
+}
+
+.titulos{
+    color:rgb(38, 0, 255);
+
+}

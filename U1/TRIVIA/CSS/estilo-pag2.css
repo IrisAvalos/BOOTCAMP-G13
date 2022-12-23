@@ -1,0 +1,147 @@
+body{
+    background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTcgLjZhNi40IDYuNCAwIDEwMCAxMi44QTYuNCA2LjQgMCAwMDcgLjZ6bTIuNTEgOC4xNTZhLjUzMy41MzMgMCAxMS0uNzU0Ljc1NEw3IDcuNzU0IDUuMjQ0IDkuNTFhLjUzMi41MzIgMCAwMS0uNzU0IDAgLjUzMy41MzMgMCAwMTAtLjc1NEw2LjI0NiA3IDQuNDkgNS4yNDRhLjUzMy41MzMgMCAxMS43NTQtLjc1NEw3IDYuMjQ2IDguNzU2IDQuNDlhLjUzMy41MzMgMCAxMS43NTQuNzU0TDcuNzU0IDcgOS41MSA4Ljc1NnoiIGZpbGw9IiM0NzUzNkEiLz48L3N2Zz4=);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+
+    outline: 1px black;
+    outline-style: solid;
+    border-radius: 15px;
+    width: 50%;  /*  */
+    height: 450px ;
+    margin: 50px auto; /* 50 -> margen vertical, auto en esa posicion sirve para centrar horizontalmente */
+    background-color: white;
+}
+
+.marca{
+    text-align: center;
+    color:white;
+    background-color: black;
+    border-radius: 15px 15px 0 0;
+}
+
+.titulo1{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+.contenedor{
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+}
+
+.titulo-hola{
+    font-size: 35px;
+    margin:20px;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(69, 51, 226);
+    font-weight: 500;
+    text-align: center;
+}
+
+.parrafo-categoria{
+    font-size: 28px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 500;
+    text-align: center;
+}
+
+.parrafo-mensaje{
+    margin-top:15px;
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 500;
+    text-align: center;
+}
+
+.categorias{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boton{
+    border:1px black;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 40px;
+    width:270px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Indie Flower', cursive;
+    color:black;
+}
+
+/* ESTO ME PERMITE AJUSTAR LA POSICIÓN DEL PRIMER Y TERCER FORMULARIO*/
+form:first-child{
+
+    margin-right: 10px;
+}
+
+form:last-child{
+    margin-left: 160px;
+    margin-top: 20px;
+
+}
+
+
+
+/* .boton-peliculas{
+    border:1px black;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+    padding: 8px 0px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+    color:black;
+    display: block;
+    width: 45%;
+}
+
+.boton-series{
+    border:1px black;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+    padding: 8px 0px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+    color:black;
+    display: block;
+    width: 45%;
+    margin-left: 55px;
+}
+.boton-novelas{
+    border:1px black;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+    padding: 8px 0px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+    color:black;
+    display: block;
+    width: 45%;
+    margin-top: 20px;
+    margin-left: 170px;
+} */

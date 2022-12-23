@@ -1,0 +1,56 @@
+body{
+
+    background-color: rgb(212, 240, 232);
+    font-family: Georgia;
+}
+
+
+.contenedor{
+
+    background-color: rgb(240, 189, 171);
+    width: 600px;
+    height: 600px;
+    margin: auto ;
+    box-shadow: 20px 20px 20px rgb(39, 37, 37);
+    position: relative;
+}
+
+.datos{
+
+    text-align: center;
+    background-color: cornsilk;
+    height: 550px;
+    width:550px ;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.titulo-pregunta{
+
+    background-color: rgb(214, 197, 197) ;
+    font-size: 25px;
+
+}
+.parrafo-pregunta{
+
+    background-color: rgb(214, 197, 197);
+    font-size: 18px;
+    height: 170px;
+}
+
+.opciones{
+
+    background-color:rgb(214, 197, 197) ;
+    height: 260px;
+}
+
+.botones{
+    width: 450px;
+    height: 42px;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px;
+
+}
